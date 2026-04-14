@@ -103,7 +103,7 @@
   a.founder-photo { text-decoration: none; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; }
   a.founder-photo:hover { transform: scale(1.08); box-shadow: 0 10px 36px rgba(91,61,143,0.35); }
   .founder-photo img {
-    width: 100%; height: 100%; object-fit: cover; border-radius: 50%;
+    width: 100%; height: 100%; object-fit: cover; object-position: center top; border-radius: 50%;
   }
 
   .founder-text h3 {
@@ -215,10 +215,10 @@
   .portfolio-icons a {
     display: flex; align-items: center; justify-content: center;
     width: 28px; height: 28px; border-radius: 8px;
-    background: rgba(123,94,167,0.06); transition: background 0.2s, transform 0.2s;
+    background: transparent; transition: background 0.2s, transform 0.2s;
     position: relative; z-index: 2;
   }
-  .portfolio-icons a:hover { background: rgba(123,94,167,0.14); transform: scale(1.12); }
+  .portfolio-icons a:hover { background: rgba(123,94,167,0.08); transform: scale(1.12); }
   .portfolio-icons a svg { width: 14px; height: 14px; fill: var(--plum); }
 
   /* ── Value ── */
@@ -390,7 +390,7 @@
   <div class="hero-orb orb-3"></div>
   <div class="hero-content">
     <h1>Bold founders.<br>Powerful capital.</h1>
-    <p class="hero-desc">We bring operator experience, deep networks, and family capital to founders rewriting the rules. From first check to global scale — we're in the trenches with you.</p>
+    <p class="hero-desc">We bring operator experience, deep networks, and family capital to founders rewriting the rules.<br>From first check to global scale — we're in the trenches with you.</p>
 
     <div class="founder-spotlight fade-in">
       <a href="https://www.linkedin.com/in/yasminlukatz/" class="founder-photo" target="_blank">
@@ -678,7 +678,7 @@
   <div class="section-label">Get In Touch</div>
   <h2>Building something bold?</h2>
   <p>We're always looking to meet exceptional founders. If you're building a company that challenges assumptions, we'd love to hear from you.</p>
-  <a href="mailto:hello@lukatztechinvestments.com" class="cta-btn">Get in touch</a>
+  <a href="mailto:investments@lukatz.com" class="cta-btn">Get in touch</a>
 </section>
 
 <footer>
